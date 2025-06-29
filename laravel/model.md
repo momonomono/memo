@@ -6,4 +6,12 @@
         - モデルに書いた場合はコントローラから呼び出す必要あり。
 
 # fillable, guarded
+
+
+# トレイトの記述
+    書くだけで効果がある
+
+    softDelete
+        delete_atを用意してsoftdeleteを書くと勝手にnullかどうか判断する
+    
     
