@@ -6,7 +6,12 @@
         - モデルに書いた場合はコントローラから呼び出す必要あり。
 
 # fillable, guarded
+    protected $fillable = [
+        'title', 'status', 'detail'
+    ];
 
+    fillable : 変更できるものを書く
+    guarded : 変更しないものを書く
 
 # トレイトの記述
     書くだけで効果がある
