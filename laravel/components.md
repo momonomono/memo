@@ -4,5 +4,8 @@
     
     <x-ファイル名>
 
+    php artisan make:component TodoListComponent
+
+
 # 独自ファイル
     
